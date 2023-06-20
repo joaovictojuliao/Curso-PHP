@@ -8,4 +8,14 @@
 
     //string, int, double, bool
     
+    $frase = "Imobiliaria Levic";
+    $ano = date('Y');
+
+    echo <<< imobiliaria
+    Fala galera, lembrando que a $frase estará presente
+    no evento mais espetacular de
+            $ano
+
+    Contamos com a sua presença! 
+    imobiliaria;
 ?>
