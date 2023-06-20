@@ -1,4 +1,5 @@
 <?php 
+    
     //constante - não pode ser alterada
     const PAIS = "Brasil";
 
