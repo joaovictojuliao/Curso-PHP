@@ -9,7 +9,7 @@
 <body>
 <p><a href="../index.html">Inicio</a></p>
     <header>
-        <h1>Resultado Mover IP</h1>
+        <h1>Clique no botão abaixo: </h1>
     </header>
     <main>
         <?php 
@@ -18,11 +18,10 @@
             $ind = $_GET["idnodedestino"];
             $ipm = $_GET["ipmigrado"];
             $token = $_GET["token"];
-
-
-            echo("https://app.jelastic.saveincloud.net/1.0/environment/binder/rest/swapextips?envName=$n&session=$token&sourceNodeId=$inf&targetNodeId=$ind&ips=$ipm");
         ?>
-        <p><a href="javascript:history.go(-1)">Voltar</a></p>
+        <a href="https://app.jelastic.saveincloud.net/1.0/environment/binder/rest/swapextips?envName=$n&session=$token&sourceNodeId=$inf&targetNodeId=$ind&ips=$ipm" target="_blank">
+            <button type="button">MIGRAR IP</button>
+        <p><a href="javascript:history.go(-1)">Voltar a página anterior</a></p>
     </main>
 </body>
 </html>
