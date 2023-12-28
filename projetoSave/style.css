@@ -42,7 +42,7 @@ main, section, article {
 footer {
     display: block;
     width: 100vw;
-    background-color: #291f6c;
+    background-color: #023d64;
     color: white;
     text-align: center;
     margin-top: auto;
@@ -55,22 +55,22 @@ p {
 }
 
 h2, h3, h4 {
-    color: #372991;
+    color: #4732cf;
     margin: 0 0 10px 0;
 }
 
 a {
-    color: #15142b;
+    color: #0b0930;
     background-color: rgba(55, 41, 145, 0.1);
     padding: 0 3px;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: .5px dotted #372991;
+    border-bottom: .5px dotted #483d96;
 }
 
 a:hover {
-    color: #372991;
-    border-bottom: 1px solid #372991;
+    color: #4e37e6;
+    border-bottom: 1px solid #453d75;
 }
 
 /* TABELAS E LISTAS */
@@ -78,12 +78,12 @@ a:hover {
 table {
     min-width: 400px;
     border-spacing: 0px;
-    border: 0.5px solid #372991;
+    border: 0.5px solid #5e4bdd;
     margin: 10px auto;
 }
 
 table th {
-    background-color: #372991;
+    background-color: #5d48e9;
     color: white;
     padding: 5px;
     text-align: left;
@@ -162,7 +162,7 @@ input[type=text], [type=number], select, input[type=date], input[type=date], inp
   
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #6d0297;
     font-size: 1em;
     color: white;
     padding: 10px 20px;
@@ -173,7 +173,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2f024d;
 }
 
 input[type=reset] {
