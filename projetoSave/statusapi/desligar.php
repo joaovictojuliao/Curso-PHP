@@ -14,8 +14,9 @@
         <?php 
             $n = $_GET["app"];
             $s = $_GET["session"];
+            $link = "https://app.jelastic.saveincloud.net/JElastic/administration/cluster/rest/setenvstatus?appid=cluster&targetAppid=$n&status=1&session=$s";           
         ?>
-        <a href="https://app.jelastic.saveincloud.net/JElastic/administration/cluster/rest/setenvstatus?appid=cluster&targetAppid=$n&status=1&session=$s" target="_blank">
+        <a href="<?php echo $link; ?>" target="_blank">
             <button type="button">DESLIGAR</button>
         <p><a href="javascript:history.go(-1)">Voltar para página anterior</a></p>
     </main>

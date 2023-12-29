@@ -12,7 +12,7 @@
         <h1>Mover IP Público</h1>
     </header>
     <section>        
-        <form action="mover.php" method="get" autocomplete="off">
+        <form action="swap.php" method="get" autocomplete="off">
             <label for="nomeambiente">Nome do ambiente </label>
             <input type="text" name="nomeambiente" id="nomeamb">
             <label for="idnodefonte">ID node do ambiente que possui o IP </label>
@@ -23,8 +23,10 @@
             <input type="text" name="ipmigrado" id="ipmig">
             <label for="token">Token </label>
             <input type="text" name="token" id="tokenid">
-
-            <input type="submit" value="Mover IP Público">
+            <p>Realizar a troca entre 2 ambientes</p>
+            <input type="submit" value="Swapextips">
+            <p>Sobrepor o IP no destino (Cuidado) </p>
+            <input type="submit" formaction="move.php" value="Moveextips">
             
         </form>
         

@@ -18,9 +18,10 @@
             $ind = $_GET["idnodedestino"];
             $ipm = $_GET["ipmigrado"];
             $token = $_GET["token"];
+            $link = "https://app.jelastic.saveincloud.net/1.0/environment/binder/rest/moveextips?envName=$n&session=$token&sourceNodeId=$inf&targetNodeId=$ind&ips=$ipm";
         ?>
-        <a href="https://app.jelastic.saveincloud.net/1.0/environment/binder/rest/swapextips?envName=$n&session=$token&sourceNodeId=$inf&targetNodeId=$ind&ips=$ipm" target="_blank">
-            <button type="button">MIGRAR IP</button>
+        <a href="<?php echo $link; ?>" target="_blank">
+            <button type="button">MIGRAR IP (Moveextips) </button>
         <p><a href="javascript:history.go(-1)">Voltar a página anterior</a></p>
     </main>
 </body>
